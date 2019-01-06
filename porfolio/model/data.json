@@ -8,25 +8,25 @@
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
-            "category":"website design",
+            "category":"Application",
             "link":"https://www.facebook.com/"
         },
         {
             "id":4,
             "title": "programing website",
-            "bigImage": "/images/header.jpg",
+            "bigImage": "/images/about.jpg",
             "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
-            "category":"website design",
+            "category":"branding",
             "link":"https://www.facebook.com/"
         },
 
         {
             "id":2,
             "title": "programing website",
-            "bigImage": "/images/header.jpg",
+            "bigImage": "/images/shortcodes.jpg",
             "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
@@ -43,7 +43,7 @@
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
-            "category":"website design",
+            "category":"design",
             "link":"https://www.facebook.com/"
         }
 

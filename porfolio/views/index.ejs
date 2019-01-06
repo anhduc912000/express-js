@@ -23,20 +23,28 @@
 			<ul class="ish-portfolio-item ish-portfolio-filter">
 				<li class="ish-portfolio-filter__item ish-portfolio-filter--title"><h5>Filter:</h5></li>
 				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link ish-portfolio-filter__link--active" href="#all">All</a></li>
-				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#print">Print</a></li>
-				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#identity">Identity</a></li>
-				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#mockup">Mockup</a></li>
-				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#application">Application</a></li>
-			</ul>
-			<a class="ish-portfolio-item ish--tc13 ish-portfolio-print" href="#">
+    <% fakeData.products.forEach(function(product){ %>  
+      
+        <li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#<%= product.category %>"><%= product.category %></a></li>
+    <% }) %>
+
+      </ul>
+      
+    <% fakeData.products.forEach(function(product){ %>  
+			<a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= product.category %>" href="#">
 				<div class="ish-portfolio-item__image-container">
-					<img class="ish-portfolio-item__image" src="./images/p1.jpg./images/p1.jpg" alt="business cards">
+					<img class="ish-portfolio-item__image" src="<%= product.bigImage %>" alt="<%= product.title %>">
 				</div>
 				<div class="ish-portfolio-item__desc">
-					<span class="ish-portfolio-item__title">Business Cards</span>
-					<span class="ish-portfolio-item__subtitle">Print</span>
+					<span class="ish-portfolio-item__title"><%= product.title %></span>
+					<span class="ish-portfolio-item__subtitle"><%= product.category %></span>
 				</div>
-			</a>
+      </a>
+
+    <% }) %>
+
+      <!--
+
 			<a class="ish-portfolio-item ish--tc7 ish-portfolio-identity" href="#">
 				<div class="ish-portfolio-item__image-container">
 					<img class="ish-portfolio-item__image" src="./images/p2.jpg" alt="the carpets are dirty">
@@ -100,7 +108,7 @@
 					<span class="ish-portfolio-item__subtitle">Print</span>
 				</div>
 			</a>
-
+    -->
       <!-- main content end -->
 		</div>
 		<!-- content end -->
