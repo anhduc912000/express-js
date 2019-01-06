@@ -1,0 +1,28 @@
+<% include template/header %>
+ <h3>Watched Product List</h3>
+		<!-- content -->
+		<div class="ish-row ish-content ish-portfolio ish-macy">
+
+      <!-- main content -->
+<% list.forEach(function(id){ %>
+    <% fakeData.products.forEach(function(product){ %>  
+        <% if(product.id == id){ %>
+			<a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= product.category %>" href="/detail/<%= product.linkSEO %>.<%= product.id %>">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="<%= product.bigImage %>" alt="<%= product.title %>">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title"><%= product.title %></span>
+					<span class="ish-portfolio-item__subtitle"><%= product.category %></span>
+				</div>
+      </a>
+
+<%      }
+    })
+}) %>
+
+      <!-- main content end -->
+		</div>
+		<!-- content end -->
+
+<% include Template/footer %>
