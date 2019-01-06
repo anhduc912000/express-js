@@ -1,0 +1,53 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title": "programing website",
+            "bigImage": "/images/header.jpg",
+            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
+            "client": "VCCoporation",
+            "role": "coder",
+            "category":"website design",
+            "link":"https://www.facebook.com/"
+        },
+        {
+            "id":4,
+            "title": "programing website",
+            "bigImage": "/images/header.jpg",
+            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
+            "client": "VCCoporation",
+            "role": "coder",
+            "category":"website design",
+            "link":"https://www.facebook.com/"
+        },
+
+        {
+            "id":2,
+            "title": "programing website",
+            "bigImage": "/images/header.jpg",
+            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
+            "client": "VCCoporation",
+            "role": "coder",
+            "category":"website design",
+            "link":"https://www.facebook.com/"
+        },
+
+        {
+            "id":3,
+            "title": "programing website",
+            "bigImage": "/images/header.jpg",
+            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
+            "client": "VCCoporation",
+            "role": "coder",
+            "category":"website design",
+            "link":"https://www.facebook.com/"
+        }
+
+
+
+    ]
+}
