@@ -1,0 +1,104 @@
+body{
+	font-family: 'Open Sans' sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+}
+.footer{
+	background: #222;
+	padding-bottom: 95px;
+	padding-top: 30px;
+}
+.title{
+	padding-top: 70px;
+
+}
+span , a{
+	display: inline-block;
+}
+.info , .footer-widget-list , .address{
+	padding-top: 30px;
+}
+.footer .info p{
+	margin-bottom: 20px;
+	color: #a9a9a9;
+}
+p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #6e6e6e;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.footer .info ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.footer .info ul li a{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	background-color: #333333;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+}
+.title h4{
+	font-size: 22px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.footer .footer-widget-list ul li a{
+	line-height: 40px;
+	font-size: 14px;
+	color: #a9a9a9;
+}
+.footer .footer-widget-list ul li a i {
+	margin-right: 8px;
+}
+.last-post{
+	padding-top: 35px;
+}
+.footer .last-post ul li a{
+	display: inline-flex;
+	margin-bottom: 20px;
+}
+.footer .last-post ul li a .thum{
+	width: 70px;
+	height: 60px;
+}
+.footer .last-post ul li a .thum img{
+	width: 100%;
+}
+.footer .last-post ul li a .cont{
+	padding-left: 10px;
+}
+.footer .last-post ul li a .cont h6{
+	font-size: 13px;
+	color: #FFF;
+	margin-bottom: 5px;
+
+}
+.footer .last-post ul li a .cont p{
+	color: #a9a9a9;
+
+}
+.footer .address > p{
+	margin-bottom: 30px;
+}
+.footer .address ul li .icon i , .footer .address ul li .cont span{
+	color: #a9a9a9;
+	font-size: 14px;
+	display: block;
+}
+.footer .address ul li .icon i {
+	margin-right: 20px;
+	margin-top: 5px;
+}

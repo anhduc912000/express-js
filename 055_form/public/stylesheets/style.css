@@ -1,0 +1,281 @@
+*{margin: 0;padding:0;}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #6e6e6e;
+    margin-bottom: 0px;
+}
+
+.team ol.carousel-indicators {display: none;}
+
+.team .card {
+    width: 95% !important;
+    background-color: #f1f1f1;
+    transition: all 0.4s linear;
+    border: none;
+}
+
+.team .card-title {
+    color: #181818;
+    font-weight: 700;
+}
+
+.team .card-body span {font-size: 14px;color: #006ed9;text-transform: uppercase;font-weight: 600;letter-spacing: 3px;margin-bottom: 10px;}
+
+.team .card-img img {transition: all 0.3s ease-in;}
+
+.team .card-img {overflow: hidden;}
+
+.team .card-body {padding: 20px;}
+
+.team .nav {padding: 0 20px 20px 20px;}
+
+.team .card:hover {box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.25);}
+
+.team .card:hover img { transform: scale(1.1);}
+.about-text ul.nav li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    color: #aeaeae !important;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.about-text ul.nav li:hover a {color: #181818 !important;}
+
+.about-text .nav-pills .nav-link.active, .about-text .nav-pills .nav-link:hover .nav-item {
+    background: #fff;
+    color: #181818 !important;
+}
+
+.about-text ul.nav .nav-item .nav-link:before {position: absolute;content: "";background: #006ed9;width: 0;height: 1px;left: 0;bottom: 0;transition: all 0.3s ease-in;}
+
+.about-text li:hover a:before {
+    width: 100%;
+    color: #181818;
+}
+
+.about-text ul.nav .nav-item {margin-left: 10px;}
+
+.about-text ul.nav .nav-item:hover .nav-link:before, .about-text .nav-pills .nav-link.active.nav-link:before {width: 100%;}
+
+.about-text ul.nav .nav-item:first-child { margin-left: 0;}
+
+.about-text h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-text span {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1f8ffd;
+    padding-bottom: 15px;
+}
+
+span.video_icoin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+.video_icoin a i {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    z-index: 1444444;
+    background: #3099ff;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    line-height: 50px;
+}
+.about-video img {  width: 100%;}
+
+.about-video { position: relative;}
+
+.title h2 {
+    color: #181818;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.slider-caption .btn {
+    border: 1px solid #1e90ff;
+    background-color: transparent;
+    padding: 12px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative;
+    z-index: 5;
+    margin:0 10px;
+    border-radius: 0;
+}
+
+.slider-caption .btn-buytheme:before, .slider-caption .btn-contact:before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1e90ff;
+    z-index: -1;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.slider-caption .btn-buytheme:hover::before { width: 100%;}
+.slider-caption .btn-contact:before{
+    width: 100%;
+    right: 0;
+    left: auto;
+}
+.slider-caption .btn-contact:hover::before {  width: 0%  }
+.title-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.t-lft {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.t-lft h2{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.t-lft h4{
+    color: rgb(29, 145, 255);
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.t-lft p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.slider-content {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-caption {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5%;
+    left: 0;
+    z-index: 3;
+}
+
+.about.carousel-item:before, .about-video:before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.7;
+}
+.about-video:before{opacity: 0.5}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {background: rgb(13, 13, 13)!important;}
+
+a.nav-link {
+    padding-bottom: 5px;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative;
+}
+
+.menu li.active a, li:hover a.nav-link {color: #1f8fff !important;}
+
+.menu a.nav-link:before {
+    position: absolute;
+    content: "";
+    background: #1f8fff;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.menu li:hover a.nav-link:before, .menu li.active a.nav-link:before {width: 100%;}
+
+li.nav-item { margin-left: 25px;}
+
+.team li.nav-item {
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+.team li.nav-item:hover {background-color: #006ed9;}
+
+.team li.nav-item:hover a {color: #fff;}
+
+.team li.nav-item a {
+    font-size: 14px;
+    color: #9b9faa;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.mt-70{margin-top: 70px; }
+
+.team .fas {
+    position: absolute;
+    top: 30%;
+}
+.carousel {position: relative;}
+.team .fa-angle-left {left: -4%;}
+
+.team .slick-arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    line-height: 25px;
+    text-align: center;
+    transform: translateY(50%);
+    padding-top: 7px;
+    border-radius: 50%;
+    border: 1px solid #006ed9;
+    font-size: 24px;
+    transition: all 0.3s ease-in;
+    color: #006ed9;
+}
+
+.team .fas:hover {
+    background-color: #006ed9;
+    color: #fff;
+}
+.team .fa-angle-right {right: -2.4%;}
