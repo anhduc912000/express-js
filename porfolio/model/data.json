@@ -4,35 +4,38 @@
             "id":1,
             "title": "programing website",
             "bigImage": "/images/header.jpg",
-            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "productImage": ["/images/p1.jpg","/images/p2.jpg","/images/p3.jpg"],
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
             "category":"Application",
-            "link":"https://www.facebook.com/"
+            "link":"https://www.facebook.com/",
+            "linkSEO":"thiet-ke-web"
         },
         {
             "id":4,
             "title": "programing website",
             "bigImage": "/images/about.jpg",
-            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "productImage": ["/images/p1.jpg","/images/p2.jpg","/images/p3.jpg"],
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
             "category":"branding",
-            "link":"https://www.facebook.com/"
+            "link":"https://www.facebook.com/",
+            "linkSEO":"thiet-ke-web"
         },
 
         {
             "id":2,
             "title": "programing website",
             "bigImage": "/images/shortcodes.jpg",
-            "productImage": ["./images/p1.jpg","./images/p2.jpg","./images/p3.jpg"],
+            "productImage": ["/images/p1.jpg","/images/p2.jpg","/images/p3.jpg"],
             "description": "Nếu so sánh VueJS, với React với Angular thì mọi người thấy cái nào dùng dễ sử dụng thõa mái hơn nhỉ ?",
             "client": "VCCoporation",
             "role": "coder",
             "category":"website design",
-            "link":"https://www.facebook.com/"
+            "link":"https://www.facebook.com/",
+            "linkSEO":"thiet-ke-web"
         },
 
         {
@@ -44,7 +47,8 @@
             "client": "VCCoporation",
             "role": "coder",
             "category":"design",
-            "link":"https://www.facebook.com/"
+            "link":"https://www.facebook.com/",
+            "linkSEO":"thiet-ke-web"
         }
 
 
